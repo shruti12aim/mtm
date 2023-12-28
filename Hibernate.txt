@@ -1,0 +1,35 @@
+Hibernate (Object Reational Mapping Framework)
+-----------------------------------------------------------------
+Framework is a collection of reusable software components that simplify and accelerates project development. It provides ready made solutions to common problems encountered during application development. Frameworks are designed to save time and effort by offering a structured foundation upon which developers can build their software, ultimately expediting the development process.
+
+Following are some examples for popular frameworks in Java, Spring (Web framework), Hibernate (Persistence framework), SpringBoot (Microservices Framework), JUnit (Java Unit testing framework).
+
+Hibernate is an open-source object-relational mapping (ORM) framework for Java. It provides a way to map Java objects to database tables and vice versa, allowing developers to work with database data in a more object-oriented manner. Hibernate simplifies database access and persistence by abstracting low level complexities.
+
+Hibernate allows developers to define mappings between Java classes and database tables. These mappings specify how data in Java objects should be stored in the database and how database records should be represented as Java objects.
+
+Hibernate can automatically generate database tables based on the Java class definitions, which is known as schema generation.
+
+Hibernate provides Hibernate Query Language to write queries to retrieve and manipulate data from the database using Java objects and classes.
+
+Hibernate can be integrated with various Java frameworks and technologies, including Spring, SpringBoot, J2EE etc.
+
+Differences between JDBC and Hibernate:
+-------------------------------------------------------
+ JDBC is API  
+ Hibernate is Framework
+
+ JDBC does not support ORM
+ Hibernate Framework supports ORM
+
+ Implementation of relationships is difficult in JDBC	
+ relationships can be easily implemented in Hibernate
+
+ JDBC uses SQL
+ Hibernate Framework uses HQL (Hibernate Query Language)
+
+ JDBC is database dependent.
+ HIbernate is database independent.
+
+ JDBC is difficult to maintain
+ Hibernate is easy to maintain

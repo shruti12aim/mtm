@@ -1,0 +1,9 @@
+Hibernate (ORM Framework):
+--------------------------------------
+1) Create Maven project
+2) Configure project dependencies in pom.xml file
+3) Update the maven project
+4) Create hibernate.cfg.xml / a class to configure database & hibernate settings
+5) Create entity with required functionalities and annotations
+6) Create a DAO class to implement database operations
+7) Create main class
